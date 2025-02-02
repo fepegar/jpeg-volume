@@ -1,0 +1,26 @@
+################################################
+# ITK-SnAP Label Description File
+# File format: 
+# IDX   -R-  -G-  -B-  -A--  VIS MSH  LABEL
+# Fields: 
+#    IDX:   Zero-based index 
+#    -R-:   Red color component (0..255)
+#    -G-:   Green color component (0..255)
+#    -B-:   Blue color component (0..255)
+#    -A-:   Label transparency (0.00 .. 1.00)
+#    VIS:   Label visibility (0 or 1)
+#    IDX:   Label mesh visibility (0 or 1)
+#  LABEL:   Label description 
+################################################
+    0     0    0    0        0  0  0    "Clear Label"
+    1   145   29  125        1  1  1    "CSF"
+    2     0  255    0        1  1  1    "GM"
+    3     0    0  255        1  1  1    "WM"
+    4   255  255    0        1  1  1    "Fat"
+    5     0  255  255        1  1  1    "Muscles"
+    6   255    0  255        1  1  1    "Skin and Muscles"
+    7   255  239  213        1  1  1    "Skull"
+    9   205  133   63        1  1  1    "Fat2"
+   10     0  210   38        1  1  1    "Dura"
+   11   102  205  170        1  1  1    "Marrow"
+   12   255   23    0        1  1  1    "Vessels"
